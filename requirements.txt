@@ -1,0 +1,8 @@
+streamlit
+streamlit-echarts
+pydantic
+requests
+PyMuPDF
+json-repair
+python-dotenv
+zhipuai
