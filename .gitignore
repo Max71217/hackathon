@@ -1,0 +1,19 @@
+# === 赛题强制要求：严禁上传教材 PDF ===
+data/textbooks/*.pdf
+*.pdf
+
+# === 保护你的 API Key 安全 ===
+.env
+
+# === 排除 Python 缓存与虚拟环境 ===
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# === 排除临时文件与系统杂质 ===
+temp/
+.streamlit/
+.DS_Store
+Thumbs.db

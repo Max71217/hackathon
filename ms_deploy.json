@@ -1,0 +1,11 @@
+{
+  "$schema": "https://modelscope.cn/api/v1/studios/deploy_schema.json",
+  "sdk_type": "streamlit",
+  "resource_configuration": "platform/2v-cpu-16g-mem",
+  "base_image": "ubuntu22.04-py311-torch2.3.1-modelscope1.31.0",
+  "environment_variables":[
+    {"name": "ZHIPU_API_KEY", "value": "请在魔搭设置中填入真实Key"},
+    {"name": "DEEPSEEK_API_KEY", "value": "请在魔搭设置中填入真实Key"},
+    {"name": "STEPFUN_API_KEY", "value": "请在魔搭设置中填入真实Key"}
+  ]
+}
